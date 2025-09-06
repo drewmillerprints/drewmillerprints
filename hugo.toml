@@ -6,6 +6,11 @@ enableRobotsTXT = true
 languageCode = "en"
 timeout = "120s"
 title = "Drew Miller Prints"
+baseURL = "https://drewmillerprints.com"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
     title = "Drew Miller"
