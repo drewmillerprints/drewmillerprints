@@ -1,0 +1,24 @@
+theme = "gallery"
+copyright = "© 2025 Drew Miller"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+languageCode = "en"
+timeout = "120s"
+title = "Drew Miller Prints"
+
+[params]
+    title = "Drew Miller"
+    [params.author]
+        email = "drewmillerprints@gmail.com"
+        name = "Drew Miller"
+    [params.socialIcons]
+        instagram = "https://www.instagram.com/drewmillerprints/"
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
